@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html [
+<!ENTITY % brandDTD SYSTEM "chrome://branding/locale/brand.dtd" >
+%brandDTD;
+<!ENTITY % globalDTD SYSTEM "chrome://global/locale/global.dtd">
+%globalDTD;
+<!ENTITY % fennecDTD SYSTEM "chrome://browser/locale/about.dtd">
+%fennecDTD;
+]>
+
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=480; initial-scale=.6667; user-scalable=no"/>
+  <title>&aboutPage.title;</title>
+  <link rel="stylesheet" href="chrome://browser/skin/aboutPage.css" type="text/css"/>
+  <link rel="icon" type="image/png" sizes="64x64" href="chrome://branding/content/favicon64.png" />
+</head>
+
+<body dir="&locale.dir;">
+
+#ifdef SHOULD_NOT_BE_DEFINED
+    Should not be displayed (used for compiling compatibility)
+#endif
+
+    <div id="back-link-div">
+        <!-- <a href=""><img id="back-link-img" alt="back" src="images/icon_about_return.png" /></a> -->
+        <p>&aboutPage.title;</p>
+    </div>
+    <div id="logo-div">
+        <img id="logo-img" alt="qwant-logo" src="chrome://browser/skin/images/logo-hdpi.png" />
+    </div>
+    <div id="desc">
+        <p>v2.2.0</p>
+        <p>&aboutPage.desc.l1;</p>
+        <!-- <p>&aboutPage.desc.l2;</p> -->
+    </div>
+    <div id="links-list">
+        <ul>
+            <li class="first"><a href="&aboutPage.link.more.url;">&aboutPage.link.more.label;</a></li>
+            <li><a href="&aboutPage.link.privacypolicy.url;">&aboutPage.link.privacypolicy.label;</a></li>
+            <li><a href="about:license">&aboutPage.link.licenses.label;</a></li>
+        </ul>
+    </div>
+</body>
+</html>

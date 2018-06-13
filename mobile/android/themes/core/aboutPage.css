@@ -1,0 +1,57 @@
+body {
+    color: #4d545c;
+    background-color: #f8f8f8;
+    margin: 0px;
+}
+
+a {
+    color: #4d545c;
+    text-decoration: none;
+}
+
+#back-link-div {
+    background-color: white;
+    margin: 0px;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+#back-link-img {
+    position: absolute;
+    left: 3%;
+    max-height: 50px;
+}
+
+#logo-img {
+    display: block;
+    margin: auto;
+    max-height: 150px;
+}
+
+#desc {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#links-list {
+    background-color: white;
+}
+
+#links-list ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#links-list li {
+    padding: 20px;
+    padding-left: 35px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#links-list li.first {
+    border-top: 1px solid #f0f0f0;
+}

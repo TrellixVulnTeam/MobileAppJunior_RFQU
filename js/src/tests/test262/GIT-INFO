@@ -1,0 +1,5 @@
+commit 73120a5492ce274d551d2a215e65ba30085be7ef
+Author: Rick Waldron <waldron.rick@gmail.com>
+Date:   Wed Jan 10 17:33:03 2018 -0500
+
+    Fix: various lint fixes

@@ -1,0 +1,9 @@
+{
+  "default": {
+    "visibleDefaultEngines": [
+      "qwant", "qwant-junior"
+    ]
+  },
+  "regionOverrides": {},
+  "locales": {}
+}
